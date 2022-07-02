@@ -1,0 +1,18 @@
+[package]
+name = "edit-roblox-model"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.58"
+clap = { version = "3.2.8", features = ["derive"] }
+fs-err = "2.7.0"
+msgbox = "0.7.0"
+notify = "4.0.17"
+rbx_binary = "0.6.6"
+rbx_dom_weak = "2.4.0"
+rbx_xml = "0.12.4"
+roblox_install = "1.0.0"
+tempfile = "3.3.0"
